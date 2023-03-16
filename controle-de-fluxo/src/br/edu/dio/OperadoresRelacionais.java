@@ -1,3 +1,4 @@
+package br.edu.dio;
 
 public class OperadoresRelacionais {
     public static void main(String[] args){
