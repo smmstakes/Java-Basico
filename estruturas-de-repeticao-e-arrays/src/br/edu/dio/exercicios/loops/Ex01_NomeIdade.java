@@ -1,4 +1,4 @@
-package br.edu.dio.exercicios;
+package br.edu.dio.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -27,6 +27,8 @@ public static void main(String[] args) {
             System.out.println("Idade inválida! Por favor digite uma idade válida.");
 
         }while(idade >= 0);
+
+        scanner.close();
     
     }
 }

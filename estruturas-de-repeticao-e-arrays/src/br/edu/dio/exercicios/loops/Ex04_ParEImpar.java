@@ -1,4 +1,4 @@
-package br.edu.dio.exercicios;
+package br.edu.dio.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -25,6 +25,8 @@ public class Ex04_ParEImpar {
 
             qtdNumeros--;
         }while (qtdNumeros != 0);
+
+        scan.close();
 
         System.out.printf("Houve %d números pares.%n", numPar);
         System.out.printf("Houve %d númeors impares.%n", numImpar);

@@ -1,4 +1,4 @@
-package br.edu.dio.exercicios;
+package br.edu.dio.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -10,8 +10,8 @@ public class Ex03_MaiorEMedia {
         Scanner scanner = new Scanner(System.in);
 
         int numero;
-        double maior_num = Double.NEGATIVE_INFINITY;
-        int inteiro_maior = (int) maior_num;
+        double maiorNum = Double.NEGATIVE_INFINITY;
+        int inteiroMaior = (int) maiorNum;
         int count = 0;
         int media = 0;
 
@@ -19,14 +19,16 @@ public class Ex03_MaiorEMedia {
             System.out.println("Digite um número: ");
             numero= scanner.nextInt();
 
-            if (numero >= inteiro_maior) inteiro_maior = numero;
+            if (numero >= inteiroMaior) inteiroMaior = numero;
             
             media = media + numero;
 
             count++;
         }while(count < 5);
 
-        System.out.println("O maior número é: " + inteiro_maior);
+        scanner.close();
+
+        System.out.println("O maior número é: " + inteiroMaior);
         System.out.println("A média destes números é: " + (media/5));
     }
     

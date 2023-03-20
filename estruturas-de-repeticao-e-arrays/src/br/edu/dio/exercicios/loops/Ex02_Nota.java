@@ -1,4 +1,4 @@
-package br.edu.dio.exercicios;
+package br.edu.dio.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -21,6 +21,8 @@ public class Ex02_Nota{
             }
             else System.out.println("Por favor, digite uma nota válida.");
         }
+
+        scanner.close();
 
     }
 }

@@ -1,4 +1,4 @@
-package br.edu.dio.exercicios;
+package br.edu.dio.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -17,6 +17,8 @@ public class Ex05_Tabuada {
         for (int n = 1; n <=10; n++){
             System.out.printf("%d x %d = %d %n", numero, n, (numero * n));
         }
+
+        scan.close();
         
     }
     

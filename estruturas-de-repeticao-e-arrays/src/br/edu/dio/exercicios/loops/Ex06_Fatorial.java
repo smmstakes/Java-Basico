@@ -1,4 +1,4 @@
-package br.edu.dio.exercicios;
+package br.edu.dio.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -19,6 +19,8 @@ public class Ex06_Fatorial {
             fatorial = fatorial * n;
             System.out.println(fatorial);
         }
+
+        scan.close();
 
         System.out.printf("O fatorial de %d é: %d", numero, fatorial);
         
